@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .left{
+            border:2px solid red;
+            display:inline-block;
+            position: absolute;
+            left: 34px;
+            top:0px;
+        }
+        .left:hover, .left:active, .left:focus-visible{
+            box-shadow: 0 0 30px red;
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+        .mid{
+            display:block;
+            margin: 3px auto;
+            border:2px solid black;
+            width: 850px;
+        }
+        .right{
+            right:32px;
+            display:inline-block;
+            position: absolute;
+            top: 0px;
+            right: 34px;
+            border:2px solid red;
+        }
+        .navbar li{
+            display: inline-block;/*Set all text in one line*/    
+        }
+        .navbar li a{
+            padding:5px 15px;/* 5px = top-bottom, 15px = left-right*/
+            text-decoration: none;/*Underline text*/
+            color: black;
+        }
+        .navbar li a:hover, .navbar li a:active{
+            text-decoration: underline;
+            background-color: aquamarine;
+            border-radius: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <div class="left">
+              <!--For logo-->
+               left
+            </div>
+        <div class="mid">
+            <nav>
+                <ul class="navbar" type="none">
+                  <li><a href="#"><span style="font-size: 18px; text-decoration:underline; text-decoration-color:rgb(14, 153, 196) ;">Home</span></a></li>
+                  <li><a href="#">Trending games</a></li>
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Adventure</a></li>
+                  <li><a href="#">Arcade</a></li>
+                  <li><a href="#">Fighting</a></li>
+                  <li><a href="#">Horror</a></li>
+                  <li><a href="#">Puzzle</a></li>
+                  <li><a href="#">Racng</a></li>
+                </ul>
+            </nav>
+        </div>
+            <div class="right">
+                <!--For button-->
+                right
+            </div>
+    </header>
+</body>
+</html>
