@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="viewport" name="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" IE="edge">
+        <meta content="description" name="This is download site">
+        <meta content="keywords" name="The plant site">
+        <meta content="robots" name="INDEX,FOLLOW">
+        <title>Plant site</title>
+        <script src="Bd.js"></script>
+        <link rel="stylesheet" href="Bd.js">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                background-color:rgba(180,200,150)
+            }
+            .item{
+                border:2px solid rgb(182, 43, 43);
+                margin: 15px 4px;
+                background-color:rgba(200,180,180)
+            }
+            .container{
+                border:3px solid blue;
+                width: 900px;
+                height:574px;
+                margin: 50px auto;
+                background-color: rgb(111, 187, 36);
+            }
+            #Fruits{
+                float: left;
+                width:48%;
+                height:307px;
+            }
+            #Computer{
+                float: right;
+                width:48%;
+                height: 356px;
+            }
+            #Stationary{
+                /*float: left;*/
+                width:100%;
+                /* Its clear the overlap block those float left direction*/
+                clear:left;
+            }
+            p, h1{
+                text-align: justify;/*Make the text position perfect*/
+                text-align: right;
+            }
+            h2{
+                /*border:2px solid red;*/
+                text-transform:uppercase;
+                font-size:25px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin:5px auto;
+                width: 400px;
+                text-align: center;
+            }
+        </style>
+    </head> 
+    <body>
+        <div class="container">
+            <h2>Welcome to My store</h2>
+            <div id="Fruits" class="item">
+                <h1>Fruits</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel autem ab consectetur? Delectus repudiandae
+                    voluptas quo incidunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum autem harum atque at eos architecto eum sit
+                    perferendis error quos cum reprehenderit quam eveniet cumque minus explicabo fugit, asperiores exercitationem? 
+                    fugiat quae a vero, qui maiores quibusdam quaerat deleniti voluptatum pariatur consequuntur cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, quidem, quam dicta facilis provident reprehenderit inventore nam laudantium rem, quae architecto ut laborum ad maiores deleniti? Nulla consectetur ipsam, voluptates velit illum culpa dolor.
+                </p>
+            </div>
+            <div id="Computer" class="item">
+                <h1>Computer</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel autem ab consectetur? Delectus repudiandae
+                    voluptas quo incidunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum autem harum atque at eos architecto eum sit
+                    perferendis error quos cum reprehenderit quam eveniet cumque minus explicabo fugit, asperiores exercitationem? 
+                    fugiat quae a vero, qui maiores quibusdam quaerat deleniti voluptatum pariatur consequuntur cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo pariatur consequatur soluta, praesentium esse placeat iusto nobis modi totam quo eaque reprehenderit rerum ut voluptas eveniet tenetur aut autem sequi vel amet dolores ipsum?
+                </p>
+            </div>
+            <div id="Stationary" class="item">
+                <h1>Stationary</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel autem ab consectetur? Delectus repudiandae
+                    voluptas quo incidunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum autem harum atque at eos architecto eum sit
+                    perferendis error quos cum reprehenderit quam eveniet cumque minus explicabo fugit, asperiores exercitationem? 
+                    fugiat quae a vero, qui maiores quibusdam quaerat deleniti voluptatum pariatur consequuntur cupiditate.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
