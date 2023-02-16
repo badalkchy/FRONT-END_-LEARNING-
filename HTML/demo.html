@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="This is description">
+        <meta name="keyword" content="Download">
+        <meta name="robot" content="INDEX,FOLLOW">
+        <title>Document title</title>
+        <link rel="stylesheet" href="bd.css">
+        <script src="Bd.js"></script>
+        <style>
+            body{
+                margin:0px;
+                padding:0px;
+            }
+            .left{
+                border:2px solid red;
+                display:block;
+                position:absolute;
+                top:5px;
+                left:10px;
+            }
+            .right{
+                border:2px solid blue;
+                display:block;
+                position:absolute;
+                top:5px;
+                right:10px;
+            }
+            .mid{
+                border:2px solid rgb(9, 131, 5);
+                display:block;
+                width:630px;
+                margin:0px auto;
+                margin-top:10px;
+                border-radius: 10px;
+                background-color:greenyellow;
+            }
+            .navbar{
+                border :2px solid greenyellow;
+                padding:0px 0px;
+                margin:0px 0px;
+                border-radius: 10px;
+            }
+            .navbar li{
+                display:inline-block;
+                border:2px solid greenyellow;
+                margin:0px 0px;
+                padding:5px 20px;
+            }
+            .navbar li:hover, .navbar li:active{
+                background-color:rgb(198, 239, 138);
+                border:2px solid rgb(198,239,138);
+            }
+            .navbar li a{
+                /* border:2px solid red; */
+                color :black;
+                font-size:17px;
+                text-decoration:none;
+            }
+            .navbar li a:hover, .havbar li a:active{
+                color:rgb(69, 68, 68)
+            }
+            .for{
+                border:2px solid red;
+                width:600px;
+                margin:0px auto;
+            }
+            .for input[type=text]{
+                border:none;
+                border-bottom:2px solid blue;
+                border-radius:4px;
+            }
+            .for input[type=text]:hover,.for input[type=text]:hover{
+                border:none;
+                border-bottom:2px solid rgb(255, 0, 136);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="left">
+            left
+        </div>
+        <div class="mid">
+            <nav>
+                <ul class="navbar">
+                    <li style="margin-left:40px;"><a href="#">Home</a></li>
+                    <li><a href="www.sam.com">Seeds</a></li>
+                    <li><a href="#">khad</a></li>
+                    <li><a href="#">Plant</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Policy</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            Right
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Sr.no</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                    <th>Marks</th>
+                    <th>Percantage</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>English</td>
+                    <td>B</td>
+                    <td>44</td>
+                    <td>45%</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Science</td>
+                    <td>C</td>
+                    <td>45</td>
+                    <td>70%</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Maths</td>
+                    <td>A</td>
+                    <td>44</td>
+                    <td>88%</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <label for="">Google :</label>
+            <a href="www.google.com">www.google.com</a><br>
+            <a href="www.google.com"><img src="Images/12.PNG"></a>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In inventore laboriosam beatae incidunt expedita veniam eius repudiandae perferendis eaque ratione maiores accusamus cum ex totam harum voluptatem veritatis, deleniti temporibus.</p>
+        <h3 style="text-align:center;font-weight:bold;font-size:20px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Ragisteration form</h3>
+        <div class="for">
+            <form action="noactionPhp">
+                Name :<input type="text" placeholder="Enter the name">&nbsp;&nbsp;last name :<input type="text" placeholder="Enter your sur name"><br>
+                Email :<input type="email">&nbsp;&nbsp;Password<input type="number"><br>
+                Gender :<input type="radio">Male &nbsp;<input type="radio">Female <br>
+                Contact no : <input type="number"><br>
+                Comment* :<textarea cols="50" rows="2"></textarea><br>
+                <label for="">Game:</label>
+                <select name="" id="">
+                    <option value="">default</option>
+                    <option value="">Love</option>
+                    <option value="">boll</option>
+                    <option value="">racing</option>
+                    <option value="">musical</option>
+                </select>
+                <input type="checkbox">Accept all terms and condition<br>
+                <button name="submit" value="submit">Submit</button>
+
+            </form>
+        </div>
+    </body>
+</html>
