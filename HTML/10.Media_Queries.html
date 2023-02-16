@@ -1,0 +1,77 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="This is the downlaod site">
+        <meta name="keywords" content="Download game">
+        <meta name="robots" content="INDEX,FOLLOW">
+        <title>Download Games</title>
+        <link rel="stylesheet" href="Bd.css">
+        <script src="Bd.js"></script>
+        <style>
+            .box{
+                font-size: 40px;
+                background-color: aqua;
+                border:2px solid red;
+                display: none;
+            }
+
+            /* SEARCH MEDIA TYPES IN CSS */
+
+            @media(min-width:0px) and (max-width:300px){
+                #box1{
+                    display: block;
+                    background-color: yellow;
+                    padding: 20px 0px;
+                    text-align: center;
+                }
+            }
+            @media only screen and (min-width:300px) and (max-width:500px){
+                #box2{
+                    display: block;
+                    background-color:aqua;
+                    padding: 20px 0px;
+                    text-align: center;
+                }
+            }
+            @media(min-width:501px) and (max-width:600px){
+                #box3{
+                    display:block;
+                    background-color: blueviolet;
+                    padding: 20px 0px;
+                    text-align: center;
+                    color:white;
+                }
+            }
+            @media(min-width:600px) and (max-width:750px){
+                #box4{
+                    display:block;
+                    background-color: rgb(14, 11, 157);
+                    padding: 20px 0px;
+                    text-align: center;
+                    color:white;
+                }
+            }
+            @media(min-width:750px){
+                #box5{
+                    display:block;
+                    background-color: rgb(10, 97, 1);
+                    color:white;
+                    padding: 20px 0px;
+                    text-align: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="box" id="box1">I am Mobile</div>
+            <div class="box" id="box2">I am Tab</div>
+            <div class="box" id="box3">I am laptop</div>
+            <div class="box" id="box4">I am Computer</div>
+            <div class="box" id="box5">I a Projector</div>
+        </section>
+    </body>
+</html>
